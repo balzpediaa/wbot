@@ -1,6 +1,6 @@
-## NEOXR-BOT V4.0-RC (BETA)
+## BALZ PEDIA V4.0-RC (BETA)
 
-> An implementation of [@neoxr/wb](https://www.npmjs.com/package/@neoxr/wb) which has been optimized to be lightweigth.
+> An implementation of [@balz/wb](https://www.npmjs.com/package/@balz/wb) which has been optimized to be lightweigth.
 
 ### Requirements
 
@@ -14,8 +14,8 @@ There are 2 configuration files namely ```.env``` and ```config.json```, adjust 
 
 ```Javascript
 {
-   "owner": "6285887776722",
-   "owner_name": "Wildan Izzudin",
+   "owner": "6288983255273",
+   "owner_name": "Balz Pedia",
    "database": "data",
    "limit": 15,
    "ram_limit": "900mb",
@@ -30,7 +30,7 @@ There are 2 configuration files namely ```.env``` and ```config.json```, adjust 
 ```
 
 ```.env
-### ApiKey : https://api.neoxr.my.id
+### ApiKey : https://api.balzpedia.cloud
 API_KEY = 'your_apikey'
 
 ### Database : https://www.mongodb.com/
@@ -40,7 +40,7 @@ DATABASE_URL = ''
 **Notes** :
 + ```ram_limit``` : ram usage limit, for example you have a server with 1gb of ram set before the maximum capacity is 900mb.
 
-+ ```API_KEY``` : some of the features in this script use apikey, especially the downloader feature, to get an apiKey you can get it on the [Neoxr Api's](https://api.neoxr.my.id) with prices that vary according to your needs.
++ ```API_KEY``` : some of the features in this script use apikey, especially the downloader feature, to get an apiKey you can get it on the [Neoxr Api's](https://api.balzpedia.cloud) with prices that vary according to your needs.
 
 + ```DATABASE_URL``` : can be filled with mongo and postgresql URLs to use localdb just leave it blank and the data will be saved to the .json file.
 
@@ -108,7 +108,7 @@ exports.run = {
 
 + ```m``` : parameters that contain chat object.
 
-+ ```client``` : parameter which contains several messaging functions from [@neoxr/wb](https://www.npmjs.com/package/@neoxr/wb) and default functions from [Baileys](https://github.com/WhiskeySockets/Baileys).
++ ```client``` : parameter which contains several messaging functions from [@neoxr/wb](https://www.npmjs.com/package/@balz/wb) and default functions from [Baileys](https://github.com/WhiskeySockets/Baileys).
 
 + ```args``` : nput given after command in the form of an array is usually found in downloader feature which uses links such as ig, youtube, fb, etc. Parsing based on index. (Example: args[1], args[2], args[3], ....)
 
